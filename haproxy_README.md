@@ -63,9 +63,9 @@ frontend http_front
 ```bash
 backend http_back
     balance roundrobin
-    server server10 103.09.240.10:80 check
-    server server14 103.09.240.11:80 check
-    server server22 103.09.240.22:80 check
+    server server10 154.85.74.10:80 check
+    server server14 154.85.74.11:80 check
+    server server22 154.85.74.22:80 check
 ```
 
 * **balance roundrobin**: লোড ব্যালান্সিং রাউন্ড-রবিন পদ্ধতিতে হবে
